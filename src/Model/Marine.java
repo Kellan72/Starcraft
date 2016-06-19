@@ -8,6 +8,6 @@ public class Marine extends Unit  {
 	}
 	public void attack (Unit unit){
 		System.out.println("공격");
-		
+		System.out.println("방어");
 		}
 	}
