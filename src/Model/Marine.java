@@ -2,13 +2,13 @@ package Model;
 
 public class Marine extends Unit  {
 
-	public int hp;
-	public Marine(){
-		super(8);
-	hp = 40;
-	}
-	public void attack (Unit unit){
-			
 	
+	public Marine(String name, int a){
+		super(100);
 	}
+	
+	public void inform() {
+		System.out.println("¸¶¸° = " + "hp =  + this.hp");
+	}
+	
 }

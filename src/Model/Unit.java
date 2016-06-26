@@ -1,13 +1,11 @@
 package Model;
 
-public class Unit {
-	protected int hp;
+import java.util.List;
 	
-	public Unit(int hp) {
-		this.hp = hp;
-}
-
-	public void inform(){
-		System.out.println(hp);
-	}
+public class Unit {
+		
+	protected int hp;
+	protected int range;
+	protected int power;
+	
 }
